@@ -1,4 +1,4 @@
-package com.backend.BackendJWT.Models.Auth;
+package com.backend.BackendJWT.Models.DTO.CreateDTO;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

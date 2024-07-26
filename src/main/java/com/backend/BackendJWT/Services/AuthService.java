@@ -1,8 +1,8 @@
 package com.backend.BackendJWT.Services;
 
-import com.backend.BackendJWT.Models.Auth.AuthResponse;
-import com.backend.BackendJWT.Models.Auth.LoginRequest;
-import com.backend.BackendJWT.Models.Auth.RegisterRequest;
+import com.backend.BackendJWT.Models.DTO.ReponseDTO.AuthResponse;
+import com.backend.BackendJWT.Models.DTO.CreateDTO.LoginRequest;
+import com.backend.BackendJWT.Models.DTO.CreateDTO.RegisterRequest;
 import com.backend.BackendJWT.Jwt.JwtService;
 import com.backend.BackendJWT.Models.Auth.Role;
 import com.backend.BackendJWT.Models.Auth.User;
