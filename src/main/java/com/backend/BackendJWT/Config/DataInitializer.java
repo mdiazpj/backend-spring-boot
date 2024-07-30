@@ -18,9 +18,9 @@ public class DataInitializer implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
         insertRoleIfNotExists(ERole.ADMIN);
-        insertRoleIfNotExists(ERole.ADMIN);
-        insertRoleIfNotExists(ERole.ADMIN);
-        insertRoleIfNotExists(ERole.ADMIN);
+        insertRoleIfNotExists(ERole.TI);
+        insertRoleIfNotExists(ERole.COMERCIAL);
+        insertRoleIfNotExists(ERole.TIENDA);
 
     }
 
